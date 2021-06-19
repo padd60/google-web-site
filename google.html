@@ -6,19 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
     <link rel="stylesheet" href="google style.css" />
+    <script src="google active.js"></script>
   </head>
   <body>
     <div class="center">
       <span class="content"> <img src="logo.jpg" /> </span>
       <span class="blank"></span>
     </div>
+
     <div class="center">
-      <br />
-      <br />
-      <br />
-      <br />
-      <span><input class="search" type="text" /></span>
-      <span class="blank"></span>
+      <span>
+        <input class="design" type="text" title="search" placeholder="search" />
+      </span>
+      <span class="blank3"></span>
+    </div>
+
+    <div class="center">
+      <span class="content">
+        <input
+          id="box1"
+          class="add1"
+          type="button"
+          value="Google 검색"
+          onclick="move2(this);"
+        />
+
+        <input
+          id="box1"
+          class="add2"
+          type="button"
+          value="I'm feeling lucky."
+          onmouseover="effect1(this);"
+          onclick="move1(this);"
+        />
+      </span>
+
+      <span class="blank2"></span>
     </div>
   </body>
 </html>

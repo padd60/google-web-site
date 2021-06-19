@@ -15,11 +15,52 @@
 .blank {
   display: inline-block;
   width: 0;
-  height: 60%;
+  height: 65%;
   vertical-align: middle;
 }
 
-.search {
-  width: 25%;
-  height: 30px;
+.design {
+  position: relative;
+  width: 30%;
+  height: 45px;
+  border-radius: 30px;
+  border-width: thin;
+  border-color: lightgray;
+  z-index: 1;
+}
+
+.blank2 {
+  display: inline-block;
+  width: 0;
+  height: 50%;
+}
+
+.blank3 {
+  display: inline-block;
+  width: 0;
+  height: 42%;
+}
+
+.add1 {
+  width: auto;
+  height: auto;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  border: none;
+}
+
+.add2 {
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  border: none;
 }
